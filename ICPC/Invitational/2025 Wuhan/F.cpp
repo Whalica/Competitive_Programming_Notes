@@ -3,6 +3,7 @@
 
 using i64 = long long;
 using u64 = unsigned long long;
+using i128 = __int128;
 
 constexpr i64 P = 998244353;
 
@@ -15,11 +16,6 @@ i64 power(i64 a, i64 b) {
         }
     }
     return res;
-}
- 
-i64 inv(i64 a) {
-    assert(a != 0);
-    return power(a, P - 2);
 }
 
 void solve() {
