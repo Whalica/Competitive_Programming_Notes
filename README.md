@@ -1,1 +1,1 @@
-# Competitive_Programming_Notes
+## 华黎卡的个人算法竞赛学习笔记资料库
